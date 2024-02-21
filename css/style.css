@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 8%);
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  line-height: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: 100vh;
+}
+
+main {
+  background-color: hsl(0, 0%, 12%);
+  width: 280px;
+  height: auto;
+  padding: 20px 20px;
+  margin: 90px 0px;
+  border-radius: 15px;
+}
+img {
+  border-radius: 50%;
+  width: 80px;
+  padding: 20px 0;
+}
+h1 {
+  font-size: 20px;
+}
+.location {
+  color: hsl(75, 94%, 57%);
+}
+
+.info-text {
+  padding: 15px 0;
+}
+
+.btns-social {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.btns-social button {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 20%);
+  padding: 10px 0;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border: none;
+  font-weight: 600;
+  cursor: url("https://img.icons8.com/ios/50/1A1A1A/3d-pointer.png"), auto;
+}
+
+button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    padding: 20px 0;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(75, 94%, 57%);
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 375px) {
+    main{
+        width: 80vw;
+        padding: 10px 10px;
+        
+    }
+    h1{
+        font-size: 1.5em;
+        line-height: 1.4em;
+    }
+    p{
+        font-size: 1em;
+    }
+    img{
+        padding: 5px 0;
+    }
+}
